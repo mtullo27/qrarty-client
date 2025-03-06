@@ -4,7 +4,11 @@
     font-weight: 900;
     letter-spacing: rem(-2px);
 
+<<<<<<< HEAD
     @media (max-width: mantine-breakpoint-md) {
+=======
+    @media (max-width: $mantine-breakpoint-md) {
+>>>>>>> a0056e03328e60fdce257173d27306ba9a5c79e5
         font-size: rem(50px);
     }
 }

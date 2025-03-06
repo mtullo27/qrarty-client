@@ -14,11 +14,16 @@
     "@mantine/core": "^7.17.1",
     "@mantine/hooks": "^7.17.1",
     "@reduxjs/toolkit": "^2.6.0",
+<<<<<<< HEAD
     "html-to-image": "^1.11.13",
     "qrcode.react": "^4.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-qrcode-logo": "^3.0.0",
+=======
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+>>>>>>> a0056e03328e60fdce257173d27306ba9a5c79e5
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.2.0",
     "tabler-icons-react": "^1.56.0"
