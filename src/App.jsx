@@ -1,8 +1,6 @@
 import "@mantine/core/styles.css"
 
-<<<<<<< HEAD
 import { Provider } from "react-redux"
-import { BrowserRouter } from "react-router-dom"
 import { MantineProvider } from "@mantine/core"
 import { theme } from "./theme"
 import store from "./stores/index"
@@ -18,16 +16,5 @@ export default function App() {
                 </AppHeader>
             </MantineProvider>
         </Provider>
-=======
-import { MantineProvider } from "@mantine/core"
-import { Router } from "./Router"
-import { theme } from "./theme"
-
-export default function App() {
-    return (
-        <MantineProvider theme={theme}>
-            <Router />
-        </MantineProvider>
->>>>>>> a0056e03328e60fdce257173d27306ba9a5c79e5
     )
 }
