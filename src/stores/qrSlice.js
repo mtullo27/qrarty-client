@@ -3,9 +3,12 @@ import { createSlice } from "@reduxjs/toolkit"
 const qrSlice = createSlice({
     name: "qr",
     initialState: {
+        mode: "url",           
         url: "",
+        wifiSsid: "",          
+        wifiPassword: "",      
         size: 256,
-        ecLevel: "L", // Changed from "version"
+        ecLevel: "L", 
         qrStyle: "squares",
         bgColor: "#ffffff",
         fgColor: "#000000",
@@ -15,8 +18,17 @@ const qrSlice = createSlice({
         eyeColor: "#000000"
     },
     reducers: {
+        setMode: (state, action) => {
+            state.mode = action.payload
+        },
         setUrl: (state, action) => {
             state.url = action.payload
+        },
+        setWifiSsid: (state, action) => {
+            state.wifiSsid = action.payload
+        },
+        setWifiPassword: (state, action) => {
+            state.wifiPassword = action.payload
         },
         setSize: (state, action) => {
             state.size = action.payload
@@ -49,7 +61,10 @@ const qrSlice = createSlice({
 })
 
 export const {
+    setMode,
     setUrl,
+    setWifiSsid,
+    setWifiPassword,
     setSize,
     setEcLevel,
     setQrStyle,
