@@ -3,7 +3,7 @@ import { Container, Title, Paper, Stack } from "@mantine/core"
 import QRInput from "../components/QRCode/QRInput"
 import QRControls from "../components/QRCode/QRControls"
 import QRPreview from "../components/QRCode/QRPreview"
-//import QRDownloadButton from "../components/QRDownloadButton";
+import QRDownloadButton from "../components/QRCode/QRDownloadButton";
 
 const QRCodePage = () => {
     return (
@@ -16,7 +16,8 @@ const QRCodePage = () => {
                     <QRInput />
                     <QRControls />
                     <QRPreview />
-                    {/* <QRDownloadButton /> */}
+                    <QRDownloadButton />
+                
                 </Stack>
             </Paper>
         </Container>
